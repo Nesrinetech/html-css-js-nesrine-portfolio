@@ -1,0 +1,514 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Nesrine's Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="mediaqueries.css" />
+  </head>
+  <body>
+    <nav id="desktop-nav">
+      <div class="logo">Nesrine Kabachi</div>
+      <div>
+        <ul class="nav-links">
+          <li><a href="#about">About</a></li>
+          <li><a href="#experience">Experience</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+    <nav id="hamburger-nav">
+      <div class="logo">Nesrine Kabachi</div>
+      <div class="hamburger-menu">
+        <div class="hamburger-icon" onclick="toggleMenu()">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div class="menu-links">
+          <li><a href="#about" onclick="toggleMenu()">About</a></li>
+          <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
+          <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+          <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+        </div>
+      </div>
+    </nav>
+    <section id="profile">
+      <div class="section__pic-container">
+        <img src="./assets/My profile pic 2 (1).png" alt="Nesrine Kabachi profile picture" />
+      </div>
+      <div class="section__text">
+        <p class="section__text__p1">Hello, I'm</p>
+        <h1 class="title">Nesrine</h1>
+        <p class="section__text__p2">Programmer & web developer</p>
+        <div class="btn-container">
+          <button
+            class="btn btn-color-2"
+            onclick="window.open('./assets/_Resume nesrine n 3.pdf')"
+          >
+            Download CV
+          </button>
+          <button class="btn btn-color-1" onclick="location.href='./#contact'">
+            Contact Info
+          </button>
+        </div>
+        <div id="socials-container">
+          <img
+            src="./assets/linkedin.png"
+            alt="My LinkedIn profile"
+            class="icon"
+            onclick="location.href='http://linkedin.com/in/kabachi-roukia-nesrine-83518522b'"
+          />
+          <img
+            src="./assets/github.png"
+            alt="My Github profile"
+            class="icon"
+            onclick="location.href='https://github.com/Nesrinetech'"
+          />
+        </div>
+      </div>
+    </section>
+    <section id="about">
+      <p class="section__text__p1">Get To Know More</p>
+      <h1 class="title">About Me</h1>
+      <div class="section-container">
+       
+        <div class="about-details-container">
+          <div class="about-containers">
+            <div class="details-container">
+              <img
+                src="./assets/experience.png"
+                alt="Experience icon"
+                class="icon"
+              />
+              <h3>Experience</h3>
+              <p>2+ years <br />1- Programming <br />2- Building Websites<br />3- Building Web Applications<br />4-Developing using React<br />5- Python apps with APIs.<br />6- Games with python</p>
+            </div>
+            <div class="details-container">
+              <img
+                src="./assets/education.png"
+                alt="Education icon"
+                class="icon"
+              />
+              <h3>Education</h3>
+              <p>1- English Literature student at University of Algiers2.<br />2- Studying Programming and Web Development at URPSI Institut de Formation.
+                <br />3- Cs50x courses + certificate.<br />4- Coursera Web development online training.<br />5-Saylor academy Software enginnering course + certificate.</p>
+            </div>
+          </div>
+          <div class="text-container">
+            <p>
+                Welcome to my portfolio! I am Nesrine. I've delved into languages like Python, HTML, CSS, JavaScript, and API integration, I've crafted websites, Python games, and applications. Join me on a journey where coding meets creativity, and ideas come to life in the digital realm, if you want to see my other programming projects you can visit my Github profile.
+            </p>
+          </div>
+        </div>
+      </div>
+      <img
+        src="./assets/arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#experience'"
+      />
+    </section>
+    <section id="experience">
+      <p class="section__text__p1">Explore My</p>
+      <h1 class="title">Experience</h1>
+      <div class="experience-details-container">
+        <div class="about-containers">
+          <div class="details-container">
+            <h2 class="experience-sub-title">Web Development</h2>
+            <div class="article-container">
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>HTML</h3>
+                  <p>Experienced</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>CSS</h3>
+                  <p>Experienced</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>React</h3>
+                  <p>Experienced</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>JavaScript</h3>
+                  <p>Experienced</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Next JS</h3>
+                  <p>Experienced</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Node JS</h3>
+                  <p>Experienced</p>
+                </div>
+              </article>
+            </div>
+          </div>
+          <div class="details-container">
+            <h2 class="experience-sub-title">Backend Development + other languages</h2>
+            <div class="article-container">
+               
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Python</h3>
+                  <p>Experienced</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>SQL</h3>
+                  <p>Experienced</p>
+                </div>
+              </article>
+
+
+
+
+
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Flask</h3>
+                  <p>Experienced</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>SQL databases</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>RESTful APIs</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>PHP</h3>
+                  <p>Experienced</p>
+                </div>
+              </article>
+            </div>
+          </div>
+        </div>
+      </div>
+      <img
+        src="./assets/arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#projects'"
+      />
+    </section>
+    <section id="projects">
+      <p class="section__text__p1">Browse My Recent</p>
+      <h1 class="title">Projects</h1>
+      <div class="experience-details-container">
+        <div class="about-containers">
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="./assets/Untitled design (4).png"
+                alt="Project 1"
+                class="project-img"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title">Project One: Quizy!</h2>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/Nesrinetech/Quizy-my-web-app-game/'"
+              >
+                Github
+              </button>
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://nesrinetech.github.io/Quizy-my-web-app-game/'"
+              >
+                Live Demo
+              </button>
+            </div>
+          </div>
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="./assets/Untitled design (5).png"
+                alt="Project 2"
+                class="project-img"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title">Project Two: Developer Descriptor
+            </h2>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/Nesrinetech/Developer-Descriptor-using-js-.git/'"
+              >
+                Github
+              </button>
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://nesrinetech.github.io/Developer-Descriptor-using-js-/'"
+              >
+                Live Demo
+              </button>
+            </div>
+          </div>
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="./assets/Untitled design (6).png"
+                alt="Project 3"
+                class="project-img"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title">Project Three: front Interface</h2>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/Nesrinetech/supersimple-web.git/'"
+              >
+                Github
+              </button>
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://nesrinetech.github.io/Front-end-testing-skills/'"
+              >
+                Live Demo
+              </button>
+            </div>
+          </div>
+          <div class="details-container color-container">
+            <div class="article-container">
+                <img src="./assets/Untitled design (7).png" 
+                alt="Project 4" 
+                class="project-img">
+            </div>
+            <h2 class="experience-sub-title project-title">Project Four: Nesrine's AI article summraizer</h2>
+            <div class="btn-container">
+                <button 
+                 class="btn btn-color-2 project-btn" 
+                 onclick="location.href='https://github.com/your-repo-url/'"
+                >
+                 Github
+                </button>
+                <button 
+                class="btn btn-color-2 project-btn" 
+                onclick="location.href='https://sensational-pavlova-397fed.netlify.app/'"
+                >
+                Live Demo
+                </button>
+        </div>
+      </div>
+
+      <div class="details-container color-container">
+        <div class="article-container">
+            <img src="./assets/Nesrine ai compass img.png" 
+            alt="Project 5" 
+            class="project-img">
+        </div>
+        <h2 class="experience-sub-title project-title">Project Five: Nesrine AI Compass</h2>
+        <div class="btn-container">
+            <button 
+             class="btn btn-color-2 project-btn" 
+             onclick="location.href='https://github.com/Nesrinetech/Nesrine-AICompass'"
+            >
+             Github
+            </button>
+            <button 
+            class="btn btn-color-2 project-btn" 
+            onclick="location.href='https://nesrine-ai-compass-kqwn.vercel.app/'"
+            >
+            Live Demo
+            </button>
+    </div>
+  </div>
+
+  <div class="details-container color-container">
+    <div class="article-container">
+        <img src="./assets/My ecommerce img.png" 
+        alt="Project 6" 
+        class="project-img">
+    </div>
+    <h2 class="experience-sub-title project-title">Sixth project: E-commerce</h2>
+    <div class="btn-container">
+        <button 
+         class="btn btn-color-2 project-btn" 
+         onclick="location.href='https://github.com/Nesrinetech/ecommerce-test'"
+        >
+         Github
+        </button>
+        <button 
+        class="btn btn-color-2 project-btn" 
+        onclick="location.href='https://nesrinetech.github.io/ecommerce-test/'"
+        >
+        Live Demo
+        </button>
+</div>
+</div>
+
+<div class="details-container color-container">
+  <div class="article-container">
+      <img src="./assets/Restaurant website.png" 
+      alt="Project 7" 
+      class="project-img">
+  </div>
+  <h2 class="experience-sub-title project-title">Project Seven: Restaurant Website</h2>
+  <div class="btn-container">
+      <button 
+       class="btn btn-color-2 project-btn" 
+       onclick="location.href='https://github.com/Nesrinetech/Restaurant-website1'"
+      >
+       Github
+      </button>
+      <button 
+      class="btn btn-color-2 project-btn" 
+      onclick="location.href='https://restaurant-website1.vercel.app/'"
+      >
+      Live Demo
+      </button>
+</div>
+</div>
+
+<div class="details-container color-container">
+  <div class="article-container">
+      <img src="./assets/My Bank web app pic.png" 
+      alt="Project 7" 
+      class="project-img">
+  </div>
+  <h2 class="experience-sub-title project-title">Project eight: Bank Website</h2>
+  <div class="btn-container">
+      <button 
+       class="btn btn-color-2 project-btn" 
+       onclick="location.href='https://github.com/Nesrinetech/Modern-Bank'"
+      >
+       Github
+      </button>
+      <button 
+      class="btn btn-color-2 project-btn" 
+      onclick="location.href='https://modern-bank-six.vercel.app/'"
+      >
+      Live Demo
+      </button>
+</div>
+</div>
+       
+      <img
+        src="./assets/arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#contact'"
+      />
+    </section>
+    <section id="contact">
+      <p class="section__text__p1">Get in Touch</p>
+      <h1 class="title">Contact Me</h1>
+      <div class="contact-info-upper-container">
+        <div class="contact-info-container">
+          <img
+            src="./assets/email.png"
+            alt="Email icon"
+            class="icon contact-icon email-icon"
+          />
+          <p><a href="mailto:examplemail@gmail.com">kabachinesrine34@gmail.com</a></p>
+        </div>
+        <div class="contact-info-container">
+          <img
+            src="./assets/linkedin.png"
+            alt="LinkedIn icon"
+            class="icon contact-icon"
+          />
+          <p><a href="http://linkedin.com/in/kabachi-roukia-nesrine-83518522b">LinkedIn</a></p>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <nav>
+        <div class="nav-links-container">
+          <ul class="nav-links">
+            <li><a href="#about">About</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+      </nav>
+      <p>Copyright &#169; 2024 NeuralNes Technologies For Web Development. All Rights Reserved.</p>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
